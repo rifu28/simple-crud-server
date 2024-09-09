@@ -50,5 +50,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`SIMPLE CRUD IS RUNNING ON PORT ${port}`);
+  console.log(`SIMPLE CRUD IS RUNNING ON PORT NO: ${port}`);
 });
