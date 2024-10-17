@@ -4,8 +4,8 @@ const app = express();
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const port = process.env.PORT || 5000;
 
-// app.use(cors());
-// app.use(express.json());
+app.use(cors());
+app.use(express.json());
 
 const uri =
   "mongodb+srv://rifatmeumeu28:b7msNWuVsez3IPaF@cluster0.82xna.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
